@@ -40,7 +40,7 @@ void printerror(char *name, char *cmd, int index)
 	write(STDERR_FILENO, cmd, _strlen(cmd));
 	write(STDERR_FILENO, mssg, _strlen(mssg));
 
-	free(idex);
+	free(idx);
 }
 
 /**
